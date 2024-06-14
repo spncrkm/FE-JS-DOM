@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./static/hwscript.js" defer></script>
+    <link rel="stylesheet" href="./static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="hidden">
+        <h1>Welcome</h1>
+        <p>This is my website</p>
+        <p>Scroll down and click Display</p>
+    </section>
+    <section class="container hidden">
+        <button style="width:150px; height:50px; background-color: lightseagreen; border-radius: 12px; box-shadow: 0 0 4em white;"
+        onclick="displayProducts()">Display</button>
+    </section>
+    <section class="hidden">
+    <form onsubmit="handleSubmit(event)">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="text" name="message" placeholder="Message" required>
+        <button type="submit">Submit</button>
+    </form>
+    </section>
+    <section class="hidden">
+    <button id="box" onclick="changeColor()">Click me to change color</button>
+    <br>
+    <button id="box-2" onmouseover="mouseOver()">Hover over me</button>
+    </section>
+    
+    
+
+    <section class="hidden">
+        <h2>Scroll Down to look at characters</h2>
+        <p>
+            If you don't know these characters leave site immediately
+        </p>
+    </section>
+    
+    <section class="hidden">
+        <h2>Has nothing to do with products but it's AVATAR</h2>
+        <div class="logos">
+            <div class="logo hidden">
+                <img src="./static/images/aang_png.png">
+            </div>
+            <div class="logo hidden">
+                <img src="./static/images/katara_png.png">
+            </div>
+            <div class="logo hidden">
+                <img src="./static/images/toph_png.png">
+            </div>
+            <div class="logo hidden">
+                <img src="./static/images/zuko_png.png">
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
+
